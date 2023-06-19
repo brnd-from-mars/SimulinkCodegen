@@ -10,7 +10,7 @@ set(AVR_HFUSE 0xdd)
 set(AVR_EFUSE 0xff)
 set(AVR_FREQ 16000000UL)
 
-project(PCU_Rev-B_Controller C)
+project(SimulinkCodegen C)
 
 avr_generate_fixed_targets()
 
